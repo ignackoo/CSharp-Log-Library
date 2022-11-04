@@ -163,3 +163,4 @@ log.Warning(1, 10001, "log message", bytearray);                          // log
 log.Error(1, 10001, "log message", bytearray);                            // log error with alert error
 log.Critical(1, 10001, "log message", bytearray);                         // log critical with alert critical
 log.Close()                                                               // close log
+
