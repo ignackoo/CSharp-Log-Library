@@ -50,7 +50,7 @@ namespace Library
 
         /// <summary>
         /// Connection string to eMail .
-        /// Example: "Smtp=smtp.gmail.com;Ssl=true;Port=587;Sender=youremail@emailprovider.tld;Password=abcdefgh;Recipient=youremail@emailprovider.tld;PauseMS=10"
+        /// Example: "Smtp=smtp.emailprovider.tld;Ssl=true;Port=587;Sender=youremail@emailprovider.tld;Password=abcdefgh;Recipient=youremail@emailprovider.tld;PauseMS=10"
         /// </summary>
         public string ConnectionString { get; set; }
 
