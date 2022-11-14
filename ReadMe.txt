@@ -94,7 +94,7 @@ LogToConsole  - writes messages to the console screen, therefore it does not nee
 LogToDebug    - writes messages to the visual studio diagnostic debug, therefore it does not need any connection string.
 
 LogToEMail    - sends messages using email
-		    Connection String Example = "Smtp=smtp.gmail.com;Ssl=true;Port=587;Sender=EMAIL@gmail.com;Password=abcdefghijklmnop;Recipient=EMAIL@mail.com;PauseMS=10;";
+		    Connection String Example = "Smtp=smtp.emailprovider.tld;Ssl=true;Port=587;Sender=youremail@emailprovider.tld;Password=abcdefghijklmnop;Recipient=youremail@emailprovider.tld;PauseMS=10;";
 		    Smtp - smtp address
 		    Ssl - determines whether secure ssl communication with the smtp server is used
 		    Sender - the sender's email for communication with the smtp server
@@ -143,7 +143,7 @@ logtoxmlfile.ConnectionString = "Path=C:\\A;Period=second";               // fil
 Library.LogAsync logtoxmlfileasync = new Library.LogAsync(logtoxmlfile);  // log to xml file async
 
 Library.LogToEMail alerttoemail = new Library.LogToEMail();               // alert to email
-alerttoemail.ConnectionString = "Smtp=smtp.gmail.com;Ssl=true;Port=587;Sender=test@gmail.com;Password=abcdefghijklmnop;Recipient=test@mail.com;PauseMS=10;";  // email config
+alerttoemail.ConnectionString = "Smtp=smtp.emailprovider.tld;Ssl=true;Port=587;Sender=youremail@emailprovider.tld;Password=abcdefghijklmnop;Recipient=youremail@emailprovider.tld;PauseMS=10;";  // email config
 Library.LogAsync alerttoemailasync = new Library.LogAsync(alerttoemail);  // alert to email async
 
 Library.LogWithAlert logwithalert = new Library.LogWithAlert(logtoxmlfileasync, alerttoemailasync);   // alerttoemailasync will be used as alerts, second parameter
