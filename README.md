@@ -35,3 +35,6 @@ Message formats are defined in the providers' code.
 ignackoo/CSharp-ConnectionStringBuilder-Library from github must be included in project.
 
 To use this library see the readme.txt file for more details.
+
+------------------------------------------------------------------------------
+please give me some star if you will see that the library is useful, thank you
